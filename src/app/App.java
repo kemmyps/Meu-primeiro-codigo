@@ -45,11 +45,11 @@ public class App {
         }
 
         System.out.print("\n>> ");
-        mainOptionsSelection();
+        selectAppOption();
 
     }
 
-    private void mainOptionsSelection() {
+    private void selectAppOption() {
 
         int choice;
 
@@ -81,7 +81,8 @@ public class App {
                     break;
                 case 5:
                     Java java = new Java();
-                    java.options();
+                    while(java.learn()) { }
+                    mainOptions();
                     break;
                 default:
                     invalidOptions();

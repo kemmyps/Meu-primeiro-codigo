@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed08ff6-b797-4d1b-a5e8-57a0d1b6e0f8" name="Changes" comment="Segunda versão do primeiro programa criado para o curso de análise e desenvolvimento de sistemas da PUCGO, onde fizemos melhorias em relação a organização do código, implementando classes.">
-      <change afterPath="$PROJECT_DIR$/src/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/options/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/options/Fundamentals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/options/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/options/ProcessingUnits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/options/StorageUnits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/options/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/options/Java.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +41,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,6 +74,14 @@
       <updated>1680453482371</updated>
       <workItem from="1683674484074" duration="5040000" />
     </task>
+    <task id="LOCAL-00001" summary="Segunda versão do primeiro programa criado para o curso de análise e desenvolvimento de sistemas da PUCGO, onde fizemos melhorias em relação a organização do código, implementando classes.">
+      <created>1683681106078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683681106078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +93,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="TEXT_FILTER_SETTINGS">
                 <TextFilterSettings>
                   <option name="MATCH_CASE" value="true" />
@@ -105,7 +110,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Segunda versão do primeiro programa criado para o curso de análise e desenvolvimento de sistemas da PUCGO, onde fizemos melhorias em relação a organização do código." />
     <MESSAGE value="Segunda versão do primeiro programa criado para o curso de análise e desenvolvimento de sistemas da PUCGO, onde fizemos melhorias em relação a organização do código, implementando classes." />
     <option name="LAST_COMMIT_MESSAGE" value="Segunda versão do primeiro programa criado para o curso de análise e desenvolvimento de sistemas da PUCGO, onde fizemos melhorias em relação a organização do código, implementando classes." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/app/App.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
