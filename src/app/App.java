@@ -65,19 +65,23 @@ public class App {
                     break;
                 case 1:
                     StorageUnits storage = new StorageUnits();
-                    storage.options();
+                    while(storage.learn());
+                    mainOptions();
                     break;
                 case 2:
                     ProcessingUnits processing = new ProcessingUnits();
-                    processing.options();
+                    while (processing.learn()) { }
+                    mainOptions();
                     break;
                 case 3:
                     Fundamentals fundamentals = new Fundamentals();
-                    fundamentals.options();
+                    while (fundamentals.learn()) { }
+                    mainOptions();
                     break;
                 case 4:
                     Algorithm algorithm = new Algorithm();
-                    algorithm.options();
+                    while(algorithm.learn()) { }
+                    mainOptions();
                     break;
                 case 5:
                     Java java = new Java();

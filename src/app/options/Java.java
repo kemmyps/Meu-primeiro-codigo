@@ -16,9 +16,7 @@ public class Java {
             "0 - Voltar"
     };
 
-    public Java() {
-        scan = new Scanner(System.in);
-    }
+    public Java() {scan = new Scanner(System.in);}
 
     /*
      * Aprender algo sobre o Java e retornar false quando for para finalizar o aprendizado
